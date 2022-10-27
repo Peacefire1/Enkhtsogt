@@ -22,19 +22,16 @@
 .head{
     display: flex;
     justify-content: space-between;
-
-    
 }
 ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
-    font-size: small;
-
+    width: 100%;
 }
-li{
+ul li{
     width: 200px;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
 }
 header img{
     width: 50%;
@@ -44,12 +41,12 @@ header img{
     height: 20px;
 }
 .menubar{
-    width: 10px;
-    height: 10px;
-    width: 5%;
+    width: 20px;
+    height: 20px;
+    width: 10%;
 }
 nav{
-    width: 50%;
+    width: 60%;
 }
 .tittle{
     display: flex;
@@ -65,11 +62,11 @@ nav{
     width: 100%;
 }
 h1{
+    margin-top: 250px;
     font-weight: 600px;
     font-size: 50px;
     line-height: 105px;
     position: absolute;
-    bottom: 270;
 }    
 .upperLogo{
     width: 50%;
@@ -116,14 +113,14 @@ h1{
                             /* footer */
 .footer-up{
     height: 200px;
-    width: 15%;
+    width: 13%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .footer-up img{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
 footer{
     height:231px ;
@@ -157,4 +154,7 @@ li{
 .footer-down ul{
     margin: 0;
     padding: 0;
+}
+#list-bag{
+    width: 150px;
 }
